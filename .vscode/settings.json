@@ -1,0 +1,21 @@
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.suggest.completeFunctionCalls": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": false,
+    "**/dist": false
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": "package-lock.json, bun.lock, tsconfig.json, vite.config.ts",
+    ".env.example": ".env"
+  }
+}

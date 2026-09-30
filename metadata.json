@@ -1,0 +1,10 @@
+{
+  "name": "Remix NMIMS AI Admission Voice Assistant",
+  "description": "Production-ready AI Voice Admission Calling System for SVKM NMIMS Global University, Dhule featuring real PSTN calling, multilingual STT/TTS (English, Hindi, Marathi), dynamic database querying, and live human counsellor transfer.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
